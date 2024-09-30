@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'El servicio',
+    descripcionCurso:
+      'El componente formativo destaca la importancia de la calidad del servicio para fidelizar clientes. Aborda características clave del servicio, los diez mandamientos para un buen servicio y conceptos de <em>catering</em>, incluyendo tipos de servicios, componentes esenciales y confección de menús. Enfatiza la cortesía, atención personalizada y agilidad para cumplir con las expectativas del cliente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'El servicio',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Aspectos relacionados con un buen servicio',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Los diez mandamientos del buen servicio',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,14 +55,31 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Servicio de <em>catering</em>',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Aspectos fundamentales para la calidad del servicio de <em>catering</em>',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos de servicio de <em>catering</em>',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Componentes del servicio de <em>catering</em>',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Confección de menús',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +129,105 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'El servicio',
+      referencia:
+        'TEDx Talks. (2022). La vocación de servicio como estrategia | josé barreiro | TEDxTorrelodones. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=JP0kw85R3IE&ab_channel=TEDxTalks',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Aspectos relacionados con un buen servicio',
+      referencia:
+        'Restaurantes Exitosos. (2022). Así se ofrece un servicio al cliente de calidad | Restaurantes Exitosos. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=RBX-o4SFXbE&ab_channel=RestaurantesExitosos',
+    },
+    {
+      tema: 'Los diez mandamientos del buen servicio',
+      referencia:
+        'Villanett (2024). Los 10 Mandamientos para la Atención al Cliente. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uJuSKCK5910&ab_channel=Villanett',
+    },
+    {
+      tema: 'Servicio de <em>catering</em>',
+      referencia:
+        'El Confidencial. (2015). Cómo funciona un catering. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=Q36czZQx3Nw&ab_channel=ElConfidencial',
+    },
+    {
+      tema: 'Tipos de servicio de <em>catering</em>',
+      referencia:
+        'Mashed Español. (2020). Así Es Cómo Las Cadenas De Restaurantes De Buffet Te Estafan. [Archivo de video] Youtube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=ODtTAfnTEXM&ab_channel=MashedEspa%C3%B1ol',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: '<em>Catering</em>',
+      significado:
+        'servicio de alimentos y bebidas en eventos, fiestas o presentaciones, con múltiples componentes.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Confiabilidad',
+      significado:
+        'capacidad del servicio de cumplir lo que promete, generando confianza en el cliente.',
+    },
+    {
+      termino: 'Cortesía',
+      significado: 'trato amable y respetuoso que el cliente espera recibir.',
+    },
+    {
+      termino: 'Fidelización',
+      significado:
+        'proceso de lograr que los clientes vuelvan a utilizar los servicios de una empresa de forma regular.',
+    },
+    {
+      termino: 'Inseparable',
+      significado: 'el servicio se produce y consume simultáneamente.',
+    },
+    {
+      termino: 'Intangible',
+      significado:
+        'característica del servicio que indica que no se puede tocar, sentir, escuchar ni oler antes de la compra.',
+    },
+    {
+      termino: 'Perecedero',
+      significado: 'los servicios no pueden almacenarse para su uso posterior.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'conjunto de prestaciones que el cliente espera, además del producto o servicio básico.',
+    },
+    {
+      termino: 'Variable',
+      significado:
+        'la calidad del servicio puede cambiar según quién, cuándo, cómo y dónde se ofrece.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Betancourt-Ramírez, J. B., Aldana-de-Vega, L., & Gómez-Betancourt, G.  (2014). Servicio, ambiente y calidad de restaurantes en Bogotá. Estudio comparativo de empresa familiar y empresa no familiar. Entramado, 10(2), 60-74.',
+      link: 'https://www.redalyc.org/articulo.oa?id=265433711005',
+    },
+    {
+      referencia:
+        'Emcebar. (2021). GUÍA DE SERVICIO AL CLIENTE PARA RESTAURANTES.',
+      link:
+        'https://www.cursosgastronomia.com.mx/storage/2021/11/Servicio-al-cliente-para-restaurantes.pdf',
+    },
+    {
+      referencia:
+        'Zambrana Martínez, M. J. (2014). UF0259: Servicio y atención al cliente en restaurante (5.ª ed.). Editorial eLearning S.L. ISBN: 978-84-16275-32-8.',
+      link:
+        'https://www.editorialelearning.com/catalogo/media/iverve/uploadpdf/1525959058_UF0259_demo.pdf',
     },
   ],
   creditos: [

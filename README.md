@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **El servicio**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_93610223_SERVICIOS_GASTRONOMICOS/#/](https://ecored-sena.github.io/CF2_93610223_SERVICIOS_GASTRONOMICOS/#/)
 
 #
 
