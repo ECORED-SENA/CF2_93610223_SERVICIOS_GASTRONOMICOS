@@ -53,8 +53,23 @@
   background-color: $color-sistema-j
 .fondo-color-sistema-k
   background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
 .fondo-color-primario
   background-color: $color-primario
+.fondo-color-secundario
+  background-color: $color-secundario
+
+.c-color-sistema-o
+  color: $color-sistema-o
 
 //bordes
 .no-borde
@@ -149,6 +164,9 @@
   &.f2
     &:before
       background-image: url(../assets/curso/temas/5.png)
+  &.f4
+    &:before
+      background-image: url(../assets/curso/temas/16.png)
   &.f3
     &:before
       background: rgb(235,244,255)
@@ -178,6 +196,17 @@
     i
       font-size: 1.2rem
       color: $white
+
+.slider-personalizado-2
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    background-image: url(../assets/curso/temas/18.svg)
+  .slyder-a__bullets__item
+    opacity: 0.35
+    background-color: $color-acento-contenido
+    border: none !important
+    &--active
+      opacity: 1 !important
 
 //titulos
 .titulo-decorativo
@@ -212,6 +241,12 @@
       max-width: 54px
       min-width: 54px
 
+.bloque-texto-p-1
+  .bloque-texto-g__texto
+    width: 70%
+    @media (max-width: 992px)
+      width: 100%
+
 //acordion
 .acordion-personalizado-1
   .tarjeta
@@ -229,3 +264,57 @@
     height: 50px
     background-color: $color-acento-botones !important
     color: $white
+
+//sombras
+.sombra-p-1
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  -moz-box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+  box-shadow: 0px 3px 20px 0px rgba(15,31,51,0.24)
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header__item__line-container
+    order: 1
+    margin-bottom: 0
+  .pasos-b__header__item__tittle
+    margin-bottom: 10px
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: #CCCCCC
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: #FF8F0E
+    .pasos-b__header__item__dot
+      background-color: transparent
+      border: 3px solid #FF8F0E
+      i
+        display: none
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $white
+      border-color: #FF8F0E
+      align-content: center
+      &:before
+        content: ""
+        width: 10px
+        height: 10px
+        background-color: #FF8F0E
+        display: flex
+        border-radius: 50%
+        margin: auto
+    .pasos-b__header__item__line-container:before
+      background-color: #FF8F0E
+  .pasos-b__header__item__dot
+    min-width: 22px
+    min-height: 22px
+    max-width: 22px
+    max-height: 22px
+    background-color: white
+    span
+      display: none
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    border: none
+    color: white
