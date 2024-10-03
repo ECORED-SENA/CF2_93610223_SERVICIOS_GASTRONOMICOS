@@ -1,27 +1,27 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.pb-4.pb-md-4
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Servicio de #[em catering]
     
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.bloque-texto-p-1.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.bloque-texto-p-1.mb-5(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/14.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El #[em catering] es la prestación de alimentos en un sitio remoto. Este servicio se refiere a la alimentación institucional o colectiva que provee comida y bebida para fiestas, eventos y presentaciones de diversa índole. En algunos casos, salones de fiestas, hoteles o empresas del sector ofrecen este servicio junto con el alquiler de sus instalaciones; en otros, existen empresas especializadas en elaborar y trasladar los alimentos al lugar que el cliente determine. 
     
-    p.mb-5 El servicio gastronómico puede abarcar desde la comida y bebida hasta la mantelería, los cubiertos, y el personal, como cocineros, camareros y personal de limpieza tras el evento.
+    p.mb-5(data-aos="fade-right") El servicio gastronómico puede abarcar desde la comida y bebida hasta la mantelería, los cubiertos, y el personal, como cocineros, camareros y personal de limpieza tras el evento.
 
     Separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Aspectos fundamentales para la calidad del servicio de #[em catering]
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-lg-7
         p.mb-0 Cuando un cliente contrata un servicio gastronómico para un evento, suele centrarse en aspectos como el diseño del menú, la originalidad de los platos o las cantidades a servir. No obstante, hay aspectos que la empresa de #[em catering] debe cubrir, los cuales son esenciales para garantizar la calidad del servicio, aunque muchas veces permanecen "detrás de escena" y pasan desapercibidos.
       .col-lg-5.order-first.order-lg-last
@@ -84,10 +84,10 @@
     
     Separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.2 Tipos de servicio de #[em catering]
     
-    .row.align-items-center.mb-3
+    .row.align-items-center.mb-3(data-aos="fade-up")
       .col-md-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/25.svg",style="max-width: 85px;")
@@ -172,10 +172,10 @@
 
     Separador
 
-    #t_2_3.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.3 Componentes del servicio de #[em catering]
     
-    .row.mb-5
+    .row.mb-5(data-aos="flip-up")
       .col-lg-8
         p.mb-0 El director de banquetes, conocido como #[em Maître], es responsable de la organización y dirección del evento. Debe prever todo lo necesario en cuanto a personal, material y mobiliario, y establecer planos o croquis para la disposición de las mesas. También se encarga de dirigir el montaje #[em (mise en place)], la recepción de invitados y el servicio.
       .col-lg-4.order-first.order-lg-last
@@ -233,59 +233,92 @@
                 figure
                   img.mx-auto(src="@/assets/curso/temas/44.png",style="max-width: 400px;")
     
-    p.mb-5 Una vez determinada la composición del equipo, es importante registrar los nombres y salarios de los extras contratados, ya que estos se pagan al final del servicio.
+    p.mb-5(data-aos="fade-left") Una vez determinada la composición del equipo, es importante registrar los nombres y salarios de los extras contratados, ya que estos se pagan al final del servicio.
 
     Separador
 
-    #t_2_4.titulo-segundo.color-acento-contenido
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.4 Confección de menús
     
-    .row
-      .col-lg-7
-        p.mb-4 La creación de menús para banquetes es fundamental, ya que la elección y precio de estos menús influyen directamente en el éxito de la contratación del servicio. Contar con menús estándar es una excelente estrategia para presentar opciones a los clientes cuando solicitan información sobre el servicio.
+    .fondo-personalizado-1.top-2.bottom-1.f3
+      .fondo-personalizado-1__contenido
+        .row.mb-5
+          .col-lg-7(data-aos="fade-right")
+            p.mb-4 La creación de menús para banquetes es fundamental, ya que la elección y precio de estos menús influyen directamente en el éxito de la contratación del servicio. Contar con menús estándar es una excelente estrategia para presentar opciones a los clientes cuando solicitan información sobre el servicio.
 
-        p.mb-0 La variedad de menús estándar es:
-      .col-lg-5.order-first.order-lg-last
-        figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/45.png",style="max-width: 506px;")
-    
-    p(style="color: red;") falta imagen y lista
+            p.mb-0 La variedad de menús estándar es:
+          .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/45.png",style="max-width: 506px;")
+        
+        .row.justify-content-center.align-items-center.pt-4(data-aos="zoom-in-out")
+          .col-lg-4
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/50.png",style="max-width: 402px;")
+          .col-lg-3
+            .fondo-color-secundario.borde-27.p-3.px-5.mb-2
+              .d-flex.align-items-center
+                i.fas.fa-circle.texto-p-2.c-color-acento-contenido.me-2
+                span #[em Coffee break]
+            .fondo-color-sistema-j.borde-27.p-3.px-5.mb-2
+              .d-flex.align-items-center
+                i.fas.fa-circle.texto-p-2.c-color-acento-contenido.me-2
+                span Desayunos
+            .fondo-color-secundario.borde-27.p-3.px-5.mb-2
+              .d-flex.align-items-center
+                i.fas.fa-circle.texto-p-2.c-color-acento-contenido.me-2
+                span Menú emplatados
+            .fondo-color-sistema-j.borde-27.p-3.px-5.mb-2
+              .d-flex.align-items-center
+                i.fas.fa-circle.texto-p-2.c-color-acento-contenido.me-2
+                span Menú #[em buffet]
+            .fondo-color-secundario.borde-27.p-3.px-5.mb-2
+              .d-flex.align-items-center
+                i.fas.fa-circle.texto-p-2.c-color-acento-contenido.me-2
+                span Menú de bocadillos o picada
+            .fondo-color-sistema-j.borde-27.p-3.px-5.mb-2
+              .d-flex.align-items-center
+                i.fas.fa-circle.texto-p-2.c-color-acento-contenido.me-2
+                span Menú temático
 
-    .titulo-decorativo.my-5
-      .cont-figura
-        img(src="@/assets/curso/temas/img-tit-dec.svg")
-      .cont-text 
-        h3 Consideraciones importantes
-    
-    .row.mb-5
-      .col-lg-7
-        p.mb-4 La confección de menús tipo estándar es responsabilidad del Encargado de Banquetes, quien trabajará en conjunto con el jefe de cocina para analizar el costo, la viabilidad de ejecución y el potencial del servicio. Juntos, deben evaluar qué productos son más rentables según su precio, disponibilidad en el mercado o porque requieren ser utilizados antes de que se prolongue su almacenamiento.
-        p.mb-4 Si los menús estándar no se ajustan a las necesidades o gustos del cliente en términos de calidad o precio, es recomendable ajustarlos en colaboración directa con el cliente, asegurando así su satisfacción.
-        p.mb-0 Las normas para la confección de menús son:
+        .titulo-decorativo.my-5(data-aos="fade-right")
+          .cont-figura
+            img(src="@/assets/curso/temas/img-tit-dec.svg")
+          .cont-text 
+            h3 Consideraciones importantes
+        
+        .row.mb-4
+          .col-lg-7(data-aos="fade-right")
+            p.mb-4 La confección de menús tipo estándar es responsabilidad del Encargado de Banquetes, quien trabajará en conjunto con el jefe de cocina para analizar el costo, la viabilidad de ejecución y el potencial del servicio. Juntos, deben evaluar qué productos son más rentables según su precio, disponibilidad en el mercado o porque requieren ser utilizados antes de que se prolongue su almacenamiento.
+            p.mb-0 Si los menús estándar no se ajustan a las necesidades o gustos del cliente en términos de calidad o precio, es recomendable ajustarlos en colaboración directa con el cliente, asegurando así su satisfacción.
 
-      .col-lg-5.order-first.order-lg-last
-        figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 506px;")
+          .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 506px;")
     
-    .row
-      .col-lg-4.mb-4
-        .borde-23.fondo-color-sistema-j.p-4.h-100.text-center
-          figure.mb-4
-            img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 90px;")
-          h4.fondo-color-secundario.py-1.px-3.d-inline-flex Buscar equilibrio
-          p.mb-5 Ofrecer una selección que sea aceptada por todos los asistentes, considerando la diversidad en gustos, edades y condiciones de salud.
-      .col-lg-4.mb-4
-        .borde-23.fondo-color-sistema-m.p-4.h-100.text-center
-          figure.mb-4
-            img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 90px;")
-          h4.fondo-color-sistema-p.py-1.px-3.d-inline-flex Considerar religión y nacionalidad
-          p.mb-5 Incluir platos típicos del país anfitrión en eventos internacionales, pero evitando opciones demasiado fuertes o que puedan afectar la salud de los invitados.
-      .col-lg-4.mb-4
-        .borde-23.fondo-color-sistema-m.p-4.h-100.text-center
-          figure.mb-4
-            img.mx-auto(src="@/assets/curso/temas/49.svg",style="max-width: 90px;")
-          h4.fondo-color-sistema-p.py-1.px-3.d-inline-flex Evitar platos complejos de última hora
-          p.mb-5 Preparar los platos con suficiente antelación para que lleguen a la mesa en su punto adecuado, evitando la necesidad de elaborarlos en el momento del servicio, lo que garantiza un servicio eficiente.
+    .fondo-personalizado-1.f3
+      .fondo-personalizado-1__contenido.pb-5.pt-2
+        p.mb-5(data-aos="fade-right") Las normas para la confección de menús son:
+        
+        .row(data-aos="fade-left")
+          .col-lg-4.mb-4
+            .borde-23.fondo-color-sistema-j.p-4.h-100.text-center
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 90px;")
+              h4.fondo-color-secundario.py-1.px-3.d-inline-flex Buscar equilibrio
+              p.mb-5 Ofrecer una selección que sea aceptada por todos los asistentes, considerando la diversidad en gustos, edades y condiciones de salud.
+          .col-lg-4.mb-4
+            .borde-23.fondo-color-sistema-m.p-4.h-100.text-center
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 90px;")
+              h4.fondo-color-sistema-p.py-1.px-3.d-inline-flex Considerar religión y nacionalidad
+              p.mb-5 Incluir platos típicos del país anfitrión en eventos internacionales, pero evitando opciones demasiado fuertes o que puedan afectar la salud de los invitados.
+          .col-lg-4.mb-4
+            .borde-23.fondo-color-sistema-m.p-4.h-100.text-center
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/temas/49.svg",style="max-width: 90px;")
+              h4.fondo-color-sistema-p.py-1.px-3.d-inline-flex Evitar platos complejos de última hora
+              p.mb-5 Preparar los platos con suficiente antelación para que lleguen a la mesa en su punto adecuado, evitando la necesidad de elaborarlos en el momento del servicio, lo que garantiza un servicio eficiente.
 
 </template>
 
