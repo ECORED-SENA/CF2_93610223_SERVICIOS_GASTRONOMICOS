@@ -49,7 +49,7 @@
             .row.justify-content-center.pt-2
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-5 Armado, desarme y limpieza
-                p.mb-0 Al finalizar el evento, la empresa de catering debe encargarse del desmontaje y limpieza del área, especialmente si hay más eventos el mismo día.
+                p.mb-0 Al finalizar el evento, la empresa de #[em catering] debe encargarse del desmontaje y limpieza del área, especialmente si hay más eventos el mismo día.
               .col-lg-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 412px;")
@@ -77,7 +77,7 @@
             .row.justify-content-center.pt-2
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-5 Transporte de la gastronomía
-                p.mb-0 Mantener la cadena de frío es esencial. Algunos servicios de catering limitan el transporte de platos y componentes a un radio determinado de kilómetros.
+                p.mb-0 Mantener la cadena de frío es esencial. Algunos servicios de #[em catering] limitan el transporte de platos y componentes a un radio determinado de kilómetros.
               .col-lg-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 412px;")
@@ -113,7 +113,7 @@
                   img.mx-auto(src="@/assets/curso/temas/28.svg",style="max-width: 91px;")
                 h4.fondo-color-sistema-n.py-1.px-4.mb-4.d-inline-flex Cóctel
                 p.mb-4 Realizado entre las 11:00 y 13:00 horas, o de 19:00 a 21:00 horas. 
-                p.mb-0 Se ofrecen 15 a 20 bocados por persona (dos tercios salados, un tercio dulces).
+                p.mb-0 Se ofrecen 15 a 20 bocados por persona (dos tercios salados y un tercio dulce).
               .borde-14.bg-white.h-100.text-center.p-4.p-lg-5.sombra-p-1
                 figure.mb-4
                   img.mx-auto(src="@/assets/curso/temas/29.svg",style="max-width: 91px;")
@@ -150,7 +150,7 @@
                   img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 91px;")
                 h4.fondo-color-sistema-n.py-1.px-4.mb-4.d-inline-flex #[em Vernissage]
                 p.mb-4 Se realiza en inauguraciones de muestras pictóricas.
-                p.mb-0 Se ofrece champagne, vino y 2 bocados por persona.
+                p.mb-0 Se ofrece #[em champagne], vino y 2 bocados por persona.
               .borde-14.bg-white.h-100.text-center.p-4.p-lg-5.sombra-p-1
                 figure.mb-4
                   img.mx-auto(src="@/assets/curso/temas/35.svg",style="max-width: 91px;")
@@ -196,7 +196,7 @@
             .row.justify-content-center.pt-2
               .col-lg-6.mb-4.mb-lg-0
                 h4.mb-5 Personal
-                p.mb-0 Las empresas de catering cuentan con personal fijo y empleados eventuales. El director de eventos es responsable de presentar y vender los servicios del negocio y asegurar la disponibilidad de personal adecuado para cada evento, incluyendo camareros y cocineros.
+                p.mb-0 Las empresas de #[em catering] cuentan con personal fijo y empleados eventuales. El director de eventos es responsable de presentar y vender los servicios del negocio y asegurar la disponibilidad de personal adecuado para cada evento, incluyendo camareros y cocineros.
               .col-lg-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/41.png",style="max-width: 400px;")

@@ -131,14 +131,14 @@ export default {
     {
       tema: 'El servicio',
       referencia:
-        'TEDx Talks. (2022). La vocación de servicio como estrategia | josé barreiro | TEDxTorrelodones. [Archivo de video] Youtube.',
+        'TEDx Talks. (2022). La vocación de servicio como estrategia | josé barreiro | TEDxTorrelodones. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=JP0kw85R3IE&ab_channel=TEDxTalks',
     },
     {
       tema: 'Aspectos relacionados con un buen servicio',
       referencia:
-        'Restaurantes Exitosos. (2022). Así se ofrece un servicio al cliente de calidad | Restaurantes Exitosos. [Archivo de video] Youtube.',
+        'Restaurantes Exitosos. (2022). Así se ofrece un servicio al cliente de calidad | Restaurantes Exitosos. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=RBX-o4SFXbE&ab_channel=RestaurantesExitosos',
@@ -146,14 +146,14 @@ export default {
     {
       tema: 'Los diez mandamientos del buen servicio',
       referencia:
-        'Villanett (2024). Los 10 Mandamientos para la Atención al Cliente. [Archivo de video] Youtube.',
+        'Villanett (2024). Los 10 Mandamientos para la Atención al Cliente. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=uJuSKCK5910&ab_channel=Villanett',
     },
     {
       tema: 'Servicio de <em>catering</em>',
       referencia:
-        'El Confidencial. (2015). Cómo funciona un catering. [Archivo de video] Youtube.',
+        'El Confidencial. (2015). Cómo funciona un <em>catering</em>. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=Q36czZQx3Nw&ab_channel=ElConfidencial',
@@ -161,7 +161,7 @@ export default {
     {
       tema: 'Tipos de servicio de <em>catering</em>',
       referencia:
-        'Mashed Español. (2020). Así Es Cómo Las Cadenas De Restaurantes De Buffet Te Estafan. [Archivo de video] Youtube.',
+        'Mashed Español. (2020). Así Es Cómo Las Cadenas De Restaurantes De Buffet Te Estafan. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=ODtTAfnTEXM&ab_channel=MashedEspa%C3%B1ol',
@@ -219,7 +219,7 @@ export default {
     },
     {
       referencia:
-        'Emcebar. (2021). GUÍA DE SERVICIO AL CLIENTE PARA RESTAURANTES.',
+        'Emcebar. (2021). Guía de servicio al cliente para restaurantes.',
       link:
         'https://www.cursosgastronomia.com.mx/storage/2021/11/Servicio-al-cliente-para-restaurantes.pdf',
     },
@@ -250,8 +250,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Roberto Bernal Duque',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -260,8 +265,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Andrés Felipe Herrera Roldan',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andrés Felipe Herrera Roldán',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -276,22 +281,17 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

@@ -122,7 +122,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Qué aspecto fundamental debe garantizar un servicio de catering?',
+            '¿Qué aspecto fundamental debe garantizar un servicio de <em>catering</em>?',
           imagen: require('@/assets/componentes/pregunta_1.png'),
           barajarRespuestas: true,
           opciones: [
